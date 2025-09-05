@@ -6,17 +6,50 @@
     <title>Document</title>
     <link rel="stylesheet" href="Main.css">
     <script>
-        function myFunction() {
-        document.getElementById("demo").innerHTML = "Where do you shop for your groceries?";
-        }
-      </script>
+       
+        </script>
+     
 </head>
 <body>
-    <h1>Hello Yall</h1>
-    <p>H-E-B is the best.</p>
-    <p>Not Walmart!</p>
-    <div id="demo">
-    </div>
-    <button onclick="myFunction()" type="button">Click Me</button>
+<div>
+    
+    
+    <img src="tesla-model-y-facelift-2025-12.jpg.webp" alt="Tesla Y" width="500" height="300" class=" Tesla">
+
+</div>
+    <p>I want to buy a Tesla. The price is $34,795, but I get $7,000 off how much is it?</p>
+    <p id="demo"></p>
+
+<script>
+
+// Greating the person
+greeting = "Hello, World!"
+
+//Print the page
+print(greeting)
+
+
+// Name of foods 
+const food = ["Pizza", "Steak", "Wings"];
+
+// change it upp
+food[0] = "Pasta";
+
+// add this one
+food.push("Sushi");
+
+
+    // The total of the car minus the discount 
+const price1 = 34795;
+const price2 = 7000;
+let total = price1 - price2;
+
+// The total of the car will display 
+
+document.getElementById("demo").innerHTML = "The grand total is: " + total;
+
+
+
+</script>
 </body>
 </html>
